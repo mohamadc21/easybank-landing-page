@@ -33,21 +33,22 @@
   </nav>
 
   <header class="pb-8 flex justify-between items-center gap-6 relative overflow-hidden w-full px-10 max-[900px]:flex-col-reverse max-[900px]:mb-6 max-w-6xl">
-    <img src="./images/bg-intro-desktop.svg" alt="bg" class="absolute top-0 right-[-110px] w-full max-w-lg pointer-events-none">
+    <img src="./images/bg-intro-desktop.svg" alt="bg" class="absolute top-0 right-[-110px] w-full max-w-lg pointer-events-none max-[900px]:hidden">
+    <img src="./images/bg-intro-mobile.svg" alt="bg" class="absolute top-0 right-0 w-full max-w-lg pointer-events-none hidden max-[900px]:block">
     <div class="z-10 max-w-sm flex flex-col gap-4 max-[900px]:items-center max-[900px]:text-center">
-      <h2 class="text-3xl max-w-[250px] max-[900px]:text-4xl max-[900px]:max-w-[300px]">Next generation digital banking</h2>
+      <h2 class="text-4xl max-w-[250px] max-[900px]:text-3xl max-[900px]:mt-4 max-[400px]:mt-6 max-[400px]:text-2xl">Next generation digital banking</h2>
       <p class="text-grayishblue text-sm">Take your financial life online. Your Easybank account will be a one-stop-shop 
       for spending, saving, budgeting, investing, and much more.</p>
       <button class="bg-gradient-to-r from-limegreen to-brightcyan text-white p-2.5 w-[140px] font-bold rounded-full hover:opacity-75 duration-200 text-sm">Request Invite</button>
     </div>
-    <div class="z-10 -top-32 -right-16 max-w-md flex-shrink-0 max-[900px]:-mt-[97px] pointer-events-none">
+    <div class="z-10 -top-32 -right-16 max-w-md flex-shrink-0 max-[900px]:-mt-[33px] pointer-events-none max-[900px]:">
       <img src="./images/image-mockups.png" alt="image">
     </div>
   </header>
 
   <main class="w-full mb-16">
     <section class="px-10 py-20 bg-[hsl(220,16%,96%)] mb-20">
-      <section class="px-10 w-full m-auto max-w-6xl max-[460px]:text-center">
+      <section class="w-full m-auto max-w-6xl max-[460px]:text-center">
         <div class="max-w-lg">
           <h1 class="text-3xl">Why choose Easybank?</h1>
           <p class="text-grayishblue text-sm mt-4">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
